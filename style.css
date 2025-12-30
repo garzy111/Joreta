@@ -1,0 +1,188 @@
+*{margin: 0; padding: 0; box-sizing: border-boxs;}
+
+html,body{ width: 100%; overflow-x: hidden;}
+
+
+body{ background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
+url(.jpeg);
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 12, 15); width: 100%;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 40px;
+    background-color: #04dfa8
+}
+
+.topbar h2{
+  margin-left: 100px; white-space: nowrap; font-size: 40px; letter-spacing: 3px; 
+  font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif ; 
+color: #3a2c1a;}
+
+.logo{ width: 100px;
+height: 80px;
+border-radius: 100%;}
+
+.hero{ background-image: 
+    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url(d.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat; width: 100%;
+
+display: flex;
+align-items: center;
+padding-left: 400pix;
+min-height: 500px;
+color: aliceblue;
+
+animation: heroslide 15s infinite;
+}
+
+.hero-content{
+    color: #fff;
+     text-align: center;
+    text-emphasis-position: calc(); width: 100%;
+}
+
+.hero h1 {width: 1200px;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 30px;
+    line-height: 600pxs;
+    text-emphasis-style: inherit;
+}
+
+@keyframes heroslide{
+    0%{background-image: 
+        linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(c.jpeg);}
+    33%{background-image: 
+        linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(a.jpeg);}
+    }
+
+nav{ margin-left: 250px;
+    text-decoration: none;
+    gap: 25px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+padding-top: 10px;
+; width: 100%;}
+
+#About{ font-size: 20px; background-color: #0a241d; color: #ffffff;
+border-radius: 50px; border-style: double; text-align: center;
+margin-bottom: 10px; padding-bottom: 50px;}
+
+.list{ margin-left: 100px; width: 100%;}
+
+.order-list{ font-size: 50px; margin-left: 100px; width: 100%; }
+
+
+.list h1{
+    margin-left: 400px; font-size: 50px; margin-bottom: 100px; width: 100%;
+}
+
+
+.food-img{
+    width: 400px; height: 250px; border-radius: 50px;
+    object-fit: cover; margin-right: 700px;
+    
+}
+
+.card{ margin-left: 700px; margin-top: -320px; font-size: 50px;}
+
+    .hollof{width: 400px; height: 250px; border-radius: 50px;
+    object-fit: cover; margin-left: px;}
+
+#Manu{ background-color: #0a241d; color: #fff; text-align: center; 
+  padding: 60px 20px; border: double; 
+border-radius: 50px; margin-bottom: 10px;}
+
+#Manu h2{ font-size: 32px; margin-bottom: 32px; color: #fcfcfc;}
+
+#Manu h3{ font-size: 22px; margin-top: 25px; color: #fdfcfc;}
+
+#Manu ul{ list-style: none; padding: 0; }
+
+#Manu ul li{ font-size: 18px; margin: 8px 0; color: #dddbdb;}
+
+#Manu ul li:hover{ color: #2e7d32; cursor: pointer;}
+
+#Manu p{ font-size: 17px; margin-top: 20px; color: #cfcdcd;}
+
+#Manu button{ width: 100px; margin-top: 10px; border-style: dotted; cursor: pointer;
+}
+
+@media( max-width:768px) { #manu h2{font-size: 26px;}
+#Manu ul li{ font-size: 16px;}}
+
+ .footer {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+  color: #f5b041;
+}
+
+.footer p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-links a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #f5b041;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background: #333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #f5b041;
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
